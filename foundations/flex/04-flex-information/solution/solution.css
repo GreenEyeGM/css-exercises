@@ -1,5 +1,11 @@
+*{
+    border-style: solid;
+  border-color: orange;
+}
+
 body {
   font-family: 'Courier New', Courier, monospace;
+  text-align: center;
 }
 
 img {
@@ -10,6 +16,17 @@ img {
 .title {
   font-size: 36px;
   font-weight: 900;
+  margin-bottom: 32px;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  gap: 52px;
+}
+
+.info {
+  max-width: 200px;
 }
 
 /* do not edit this footer */
@@ -25,22 +42,4 @@ img {
   background: #eee;
 }
 
-/* SOLUTION */
 
-body {
-  text-align: center;
-}
-
-.title {
-  margin-bottom: 32px;
-}
-
-.container {
-  display: flex;
-  justify-content: center;
-  gap: 52px;
-}
-
-.info {
-  max-width: 200px;
-}
